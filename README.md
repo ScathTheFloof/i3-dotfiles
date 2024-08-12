@@ -12,7 +12,7 @@ This goes in .local/share/rofi/themes create that directory if you don't have it
 
 ## Where do I put the picom.conf file
 The location that I put it is /etc/xdg/ but you can put it in .config/picom/ (create the directory of course)
-and change the command in the i3 config file that is in .config/i3/ so that the path after the -c flag matches the path to where you put the picom.conf file.
+and change the command in the i3 config file that is in .config/i3/ so that the path after the --config flag matches the path to where you put the picom.conf file.
 
 
 ## me saying random things
