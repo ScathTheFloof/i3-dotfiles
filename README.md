@@ -7,14 +7,14 @@ all the folders except the rofi themes folder are copied to .config/
 
 ## Dependancies 
 ### If you are using sway
-swaybg
-grim (and slurp)
+swaybg \
+grim (and slurp) \
 waybar
 ### If you are using i3
-polybar
-i3lock-color
-flameshot
-dunst
+polybar \
+i3lock-color \
+flameshot \
+dunst \
 picom ([Ibhagwan fork](https://github.com/ibhagwan/picom))
 
 ## Where does the Rofi Themes folder go
