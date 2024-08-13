@@ -15,7 +15,8 @@ polybar \
 i3lock-color \
 flameshot \
 dunst \
-picom ([Ibhagwan fork](https://github.com/ibhagwan/picom))
+picom ([Ibhagwan fork](https://github.com/ibhagwan/picom)) \
+[Tela Circle icon theme](https://github.com/vinceliuice/Tela-circle-icon-theme)
 
 ## Where does the Rofi Themes folder go
 This goes in .local/share/rofi/themes create that directory if you don't have it, and make sure to only copy the contents of that folder and not put the themes in .local/share/rofi/themes/rofi themes because that will mess up the rofi theme selector and it won't be able to see the themes
