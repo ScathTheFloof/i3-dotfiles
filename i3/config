@@ -114,13 +114,13 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: Main"
-set $ws2 "2: Chill"
-set $ws3 "3: Obs/SoundCloud"
-set $ws4 "4: Chat"
-set $ws5 "5: Firefox"
-set $ws6 "6: Shutter"
-set $ws7 "7: Bluetooth control"
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
@@ -227,7 +227,8 @@ exec_always --no-startup-id feh --bg-fill $HOME/Wallpapers/XeniaWeed.png
 bindsym $mod+l exec $HOME/.config/scripts/lock
 
 # Transparency effect with the picom compositor
-exec_always --no-startup-id picom -f --config /etc/xdg/picom.conf
+#exec_always --no-startup-id picom -f --config /etc/xdg/picom.conf
+exec_always --no-startup-id picom -f --config $HOME/.config/picom/picom.conf
 
 # default window borders
 for_window [class="^.*"] border pixel 2
@@ -252,3 +253,12 @@ exec_always --no-startup-id flameshot
 
 # quick open i3 config
 # bindsym $mod+ctrl+/ exec nano $HOME/.config/i3/config
+
+#testing dunst
+bindsym $mod+n exec --no-startup-id notify-send "testing dunst :3"
+
+#dunst keybinds
+bindsym $mod+F3 exec dunstctl context
+bindsym $mod+F1 exec dunstctl history-pop
+bindsym $mod+shift+F1 exec dunstctl history
+bindsym $mod+F2 exec dunstctl close-all
