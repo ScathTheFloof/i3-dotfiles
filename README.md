@@ -5,15 +5,20 @@ It's kinda messy and everything is a little jumbled because these are the dotfil
 
 all the folders except the rofi themes folder are copied to .config/
 
+## Dependancies 
+### If you are using sway
+> swaybg
+> grim (and slurp)
+> waybar
+### If you are using i3
+> polybar
+> i3lock-color
+> flameshot
+> dunst
+> picom ([Ibhagwan fork](https://github.com/ibhagwan/picom))
 
 ## Where does the Rofi Themes folder go
 This goes in .local/share/rofi/themes create that directory if you don't have it, and make sure to only copy the contents of that folder and not put the themes in .local/share/rofi/themes/rofi themes because that will mess up the rofi theme selector and it won't be able to see the themes
-
-
-## Where do I put the picom.conf file
-The location that I put it is /etc/xdg/ but you can put it in .config/picom/ (create the directory of course)
-and change the command in the i3 config file that is in .config/i3/ so that the path after the --config flag matches the path to where you put the picom.conf file.
-
 
 ## me saying random things
 I personally don't use sway just because some apps don't work on it because it is a wayland compositor
