@@ -7,15 +7,15 @@ all the folders except the rofi themes folder are copied to .config/
 
 ## Dependancies 
 ### If you are using sway
-> swaybg
-> grim (and slurp)
-> waybar
+swaybg
+grim (and slurp)
+waybar
 ### If you are using i3
-> polybar
-> i3lock-color
-> flameshot
-> dunst
-> picom ([Ibhagwan fork](https://github.com/ibhagwan/picom))
+polybar
+i3lock-color
+flameshot
+dunst
+picom ([Ibhagwan fork](https://github.com/ibhagwan/picom))
 
 ## Where does the Rofi Themes folder go
 This goes in .local/share/rofi/themes create that directory if you don't have it, and make sure to only copy the contents of that folder and not put the themes in .local/share/rofi/themes/rofi themes because that will mess up the rofi theme selector and it won't be able to see the themes
