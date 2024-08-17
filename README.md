@@ -5,6 +5,8 @@ It's kinda messy and everything is a little jumbled because these are the dotfil
 
 all the folders except the rofi themes folder are copied to .config/
 
+### Note that I haven't translated my new i3 rice to sway so note that sway will look different from i3
+
 ## Dependancies 
 ### If you are using sway
 swaybg \
